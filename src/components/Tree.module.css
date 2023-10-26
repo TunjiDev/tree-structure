@@ -1,0 +1,65 @@
+.treeNode__buttonsContainer {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.treeNode__title {
+  padding: 0.5rem;
+  background: #fff;
+  border: 1px dashed black;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.treeNode__addButtonContainer {
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+}
+
+.treeNode__addButton {
+  width: 2rem;
+  background-color: #19c37d;
+  color: #fff;
+  padding: 0.3rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-left: 3px;
+}
+
+.treeNode__button {
+  margin-right: 8px;
+  background-color: rgb(155, 153, 153);
+  color: #fff;
+  padding: 0.3rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.treeNode__deleteButton {
+  margin-right: 8px;
+  background-color: rgb(215, 35, 35);
+  color: #fff;
+  padding: 0.3rem;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.treeNode__showButton {
+  background-color: rgb(155, 153, 153);
+  color: #fff;
+  padding: 0.4rem 0.75rem;
+  border-radius: 5%;
+  cursor: pointer;
+}
+
+.treeNode__childrenContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
